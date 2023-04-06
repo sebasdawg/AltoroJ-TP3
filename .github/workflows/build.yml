@@ -2,7 +2,7 @@ name: SonarCloud
 on:
   push:
     branches:
-      - AltoroJ-3.2
+      - Altoro-3.4
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
