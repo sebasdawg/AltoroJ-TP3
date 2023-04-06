@@ -1,0 +1,15 @@
+
+Tcom.ibm.security.appscan.altoromutual.model.User#getLastAccessDate()Ljava/util/Date;
+uD:/Documents/Polytechnique/session8/LOG8371/TP3/AltoroJ-TP3/src/com/ibm/security/appscan/altoromutual/model/User.java8 8("1*√
+19	 9(è
+å
+9	 9(
+%0java.util.Date"__id*d
+
+__unknown_file (H*F2
+0com.ibm.security.appscan.altoromutual.model.User"
+lastAccessDate""
+9 9(
+
+%0java.util.DateB42
+0com.ibm.security.appscan.altoromutual.model.UserH

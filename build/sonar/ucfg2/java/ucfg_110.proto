@@ -1,0 +1,483 @@
+
+úcom.ibm.security.appscan.altoromutual.api.AccountAPI#getAccountBalance(Ljava/lang/String;Ljavax/servlet/http/HttpServletRequest;)Ljavax/ws/rs/core/Response;É
+yD:/Documents/Polytechnique/session8/LOG8371/TP3/AltoroJ-TP3/src/com/ibm/security/appscan/altoromutual/api/AccountAPI.java8 8(""startingBlock*Ç
+24C C(7d
+b
+C C(7
+formatjava.lang.String"__id*4
+
+__unknown_file (
+
+%2java.lang.StringDB
+D D(%
+%5java.text.DecimalFormat"java.text.DecimalFormatø
+º
+D D(-
+%6"3java.text.DecimalFormat#<init>(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+%5java.text.DecimalFormat*8
+
+__unknown_file (
+
+formatjava.lang.String*
+23*¨
+13^ ^(¯
+ı
+	^ _(ç
+%27java.lang.String"__concat**
+^ ^(
+
+responsejava.lang.String*ò
+	_ _(çäá
+Ñ\"credits\":[{\"account\":\"1001160140\", \"date\":\"2004-12-29\", \"description\":\"Paycheck\", \"amount\":\"1200\"},{\"account\":\"1001160140\", \"date\":\"2005-01-12\", \"description\":\"Paycheck\", \"amount\":\"1200\"},{\"account\":\"1001160140\", \"date\":\"2005-01-29\", \"description\":\"Paycheck\", \"amount\":\"1200\"},{\"account\":\"1001160140\", \"date\":\"2005-02-12\", \"description\":\"Paycheck\", \"amount\":\"1200\"},{\"account\":\"1001160140\", \"date\":\"2005-03-01\", \"description\":\"Paycheck\", \"amount\":\"1200\"},{\"account\":\"1001160140\", \"date\":\"2005-03-15\", \"description\":\"Paycheck\", \"amount\":\"1200\"}],h
+f
+	^ _(ç
+responsejava.lang.String"__id*5
+
+__unknown_file (
+
+%27java.lang.Stringë
+é
+	` a(¶
+%28java.lang.String"__concat**
+` `(
+
+responsejava.lang.String*±
+	a a(¶£†
+ù\"debits\":[{\"account\":\"1001160140\", \"date\":\"2005-01-17\", \"description\": \"Withdrawal\" , \"amount\":\"2.85\"},{\"account\":\"1001160140\", \"date\":\"2005-01-25\", \"description\": \"Rent\" , \"amount\":\"800\"},{\"account\":\"1001160140\", \"date\":\"2005-01-27\", \"description\": \"Electric Bill\" , \"amount\":\"45.25\"},{\"account\":\"1001160140\", \"date\":\"2005-01-28\", \"description\": \"Heating\" , \"amount\":\"29.99\"},{\"account\":\"1001160140\", \"date\":\"2005-01-29\", \"description\": \"Transfer to Savings\" , \"amount\":\"321\"},{\"account\":\"1001160140\", \"date\":\"2005-01-29\", \"description\": \"Groceries\" , \"amount\":\"19.6\"}]}h
+f
+	` a(¶
+responsejava.lang.String"__id*5
+
+__unknown_file (
+
+%28java.lang.StringYW
+b b((
+%29!org.apache.wink.json4j.JSONObject"!org.apache.wink.json4j.JSONObject◊
+‘
+b b(#
+%30"=org.apache.wink.json4j.JSONObject#<init>(Ljava/lang/String;)V*F
+
+__unknown_file (*
+(
+%29!org.apache.wink.json4j.JSONObject*:
+
+__unknown_file (
+
+responsejava.lang.String*
+12*v
+25C0 C(6`
+^
+C0 C(6
+%2java.lang.String"__id*4
+
+__unknown_file (
+
+%4java.lang.String*
+24*Ñ
+14Y Y(í
+è
+Y Y(*
+%24java.lang.String"__concat**
+Y Y(
+
+responsejava.lang.String*4
+Y Y(*(
+&
+last10Transactionsjava.lang.Stringg
+e
+Y Y(*
+responsejava.lang.String"__id*5
+
+__unknown_file (
+
+%24java.lang.StringYW
+[ [($(
+%25!org.apache.wink.json4j.JSONObject"!org.apache.wink.json4j.JSONObjectâ
+Ü
+[ [(&
+%26"+org.apache.wink.json4j.JSONObject#<init>()V*F
+
+__unknown_file (*
+(
+%25!org.apache.wink.json4j.JSONObjectà
+Ö
+[ [('+
+myJson!org.apache.wink.json4j.JSONObject"__id*F
+
+__unknown_file (*
+(
+%25!org.apache.wink.json4j.JSONObject*
+13*v
+26C& C(-`
+^
+C& C(-
+%2java.lang.String"__id*4
+
+__unknown_file (
+
+%3java.lang.String*
+24*˘
+15T
+ T(_
+]
+U U('
+%19 javax.ws.rs.core.Response$Status"__id*"
+
+__unknown_file (
+""_
+]
+U U(2'
+%20 javax.ws.rs.core.Response$Status"__id*"
+
+__unknown_file (
+""≤
+Ø
+T
+ U(30
+%21)javax.ws.rs.core.Response$ResponseBuilder"ojavax.ws.rs.core.Response#status(Ljavax/ws/rs/core/Response$Status;)Ljavax/ws/rs/core/Response$ResponseBuilder;*9
+
+__unknown_file ("
+javax.ws.rs.core.Response*E
+
+__unknown_file ()
+'
+%20 javax.ws.rs.core.Response$StatusËÂ
+T
+ V(:0
+%22)javax.ws.rs.core.Response$ResponseBuilder"ojavax.ws.rs.core.Response$ResponseBuilder#entity(Ljava/lang/Object;)Ljavax/ws/rs/core/Response$ResponseBuilder;*N
+
+__unknown_file (2
+0
+%21)javax.ws.rs.core.Response$ResponseBuilder*J
+
+__unknown_file (.,
+*{Error : Unexpected error during transfer}2entity(Ljava/lang/Object;)÷”
+T
+ W( 
+%23javax.ws.rs.core.Response"Ljavax.ws.rs.core.Response$ResponseBuilder#build()Ljavax/ws/rs/core/Response;*N
+
+__unknown_file (2
+0
+%22)javax.ws.rs.core.Response$ResponseBuilder2build()".
+T W("
+ 
+%23javax.ws.rs.core.Response*Ò
+16Q Q(^
+\
+Q Q(&
+last10Transactionsjava.lang.String"__id*"
+
+__unknown_file (
+""¨
+©
+R R(=
+%17java.lang.String"qcom.ibm.security.appscan.altoromutual.api.AccountAPI#getLastTenTransactions(Ljava/lang/String;)Ljava/lang/String;*T
+
+__unknown_file (86
+4com.ibm.security.appscan.altoromutual.api.AccountAPI*;
+
+__unknown_file (
+
+	accountNojava.lang.Stringq
+o
+R R(=&
+last10Transactionsjava.lang.String"__id*5
+
+__unknown_file (
+
+%17java.lang.String‘—
+S S((
+%18boolean",java.lang.String#equals(Ljava/lang/Object;)Z*D
+
+__unknown_file ((
+&
+last10Transactionsjava.lang.String*%
+
+__unknown_file (	
+Error2equals(Ljava/lang/Object;)*
+14
+15*‡
+28B B(A≈¬
+B B(A
+%1double"Acom.ibm.security.appscan.altoromutual.model.Account#getBalance()D*W
+
+__unknown_file (;
+9
+%03com.ibm.security.appscan.altoromutual.model.Account2getBalance()*
+25
+26*”
+17D D(Ae
+c
+D D(A
+balancejava.lang.String"__id*4
+
+__unknown_file (
+
+%7java.lang.String}
+{
+E E(+
+%15java.lang.String"__concat*!
+E E(!
+{\"balance\" : \"*)
+E$ E(+
+
+balancejava.lang.Stringn
+l
+E E(6
+%16java.lang.String"__concat*%
+E E(+
+
+%15java.lang.String*
+E. E(6
+
+\" ,\ng
+e
+E E(6
+responsejava.lang.String"__id*5
+
+__unknown_file (
+
+%16java.lang.String*
+16*˚
+29B B(‰
+·
+B B(49
+%03com.ibm.security.appscan.altoromutual.model.Account"ácom.ibm.security.appscan.altoromutual.model.Account#getAccount(Ljava/lang/String;)Lcom/ibm/security/appscan/altoromutual/model/Account;*S
+
+__unknown_file (7"5
+3com.ibm.security.appscan.altoromutual.model.Account*;
+
+__unknown_file (
+
+	accountNojava.lang.String*
+28*∫
+
+startingBlock8" 9('é
+ã
+6 6(
+%47"
+__annotate*/
+
+__unknown_file (
+javax.ws.rs.GET*;
+
+__unknown_file (
+
+	accountNojava.lang.Stringè
+å
+7 7(
+%48"
+__annotate*0
+
+__unknown_file (
+javax.ws.rs.Path*;
+
+__unknown_file (
+
+	accountNojava.lang.Stringî
+ë
+8# 8(:
+%49"
+__annotate*5
+
+__unknown_file (
+javax.ws.rs.PathParam*;
+
+__unknown_file (
+
+	accountNojava.lang.String©
+¶
+8B 8(K
+	accountNojava.lang.String"__annotation*#
+
+__unknown_file (
+
+%47*#
+
+__unknown_file (
+
+%48*#
+
+__unknown_file (
+
+%49°
+û
+6 6(
+%50"
+__annotate*/
+
+__unknown_file (
+javax.ws.rs.GET*N
+
+__unknown_file (2
+0
+request%javax.servlet.http.HttpServletRequest¢
+ü
+7 7(
+%51"
+__annotate*0
+
+__unknown_file (
+javax.ws.rs.Path*N
+
+__unknown_file (2
+0
+request%javax.servlet.http.HttpServletRequest™
+ß
+9 9(
+%52"
+__annotate*8
+
+__unknown_file (
+javax.ws.rs.core.Context*N
+
+__unknown_file (2
+0
+request%javax.servlet.http.HttpServletRequestº
+π
+9 9(&0
+request%javax.servlet.http.HttpServletRequest"__annotation*#
+
+__unknown_file (
+
+%50*#
+
+__unknown_file (
+
+%51*#
+
+__unknown_file (
+
+%52*
+30*=
+6d d(v".
+d d(v"
+ 
+%39javax.ws.rs.core.Response*Î
+7d
+ d(u÷”
+d
+ d(u 
+%39javax.ws.rs.core.Response"Ljavax.ws.rs.core.Response$ResponseBuilder#build()Ljavax/ws/rs/core/Response;*N
+
+__unknown_file (2
+0
+%38)javax.ws.rs.core.Response$ResponseBuilder2build()*
+6*›
+8dM d(VY
+W
+dM d(l!
+%37javax.ws.rs.core.MediaType"__id*"
+
+__unknown_file (
+""ÌÍ
+d
+ d(m0
+%38)javax.ws.rs.core.Response$ResponseBuilder"wjavax.ws.rs.core.Response$ResponseBuilder#type(Ljavax/ws/rs/core/MediaType;)Ljavax/ws/rs/core/Response$ResponseBuilder;*N
+
+__unknown_file (2
+0
+%36)javax.ws.rs.core.Response$ResponseBuilder*?
+
+__unknown_file (#
+!
+%37javax.ws.rs.core.MediaType2"type(Ljavax/ws/rs/core/MediaType;)*
+7*Ë
+9d
+ d(G”–
+d
+ d(G0
+%36)javax.ws.rs.core.Response$ResponseBuilder"ojavax.ws.rs.core.Response$ResponseBuilder#entity(Ljava/lang/Object;)Ljavax/ws/rs/core/Response$ResponseBuilder;*N
+
+__unknown_file (2
+0
+%34)javax.ws.rs.core.Response$ResponseBuilder*5
+
+__unknown_file (
+
+%35java.lang.String2entity(Ljava/lang/Object;)*
+8*j
+30= =(T
+R
+= =(
+responsejava.lang.String"__id*"
+
+__unknown_file (
+""*
+29*”
+10d5 d(;Ω∫
+d5 d(F
+%35java.lang.String">org.apache.wink.json4j.JSONObject#toString()Ljava/lang/String;*I
+
+__unknown_file (-
++
+myJson!org.apache.wink.json4j.JSONObject2
+toString()*
+9*ã
+11d
+ d(_
+]
+d d()'
+%32 javax.ws.rs.core.Response$Status"__id*"
+
+__unknown_file (
+""_
+]
+d d(,'
+%33 javax.ws.rs.core.Response$Status"__id*"
+
+__unknown_file (
+""≤
+Ø
+d
+ d(-0
+%34)javax.ws.rs.core.Response$ResponseBuilder"ojavax.ws.rs.core.Response#status(Ljavax/ws/rs/core/Response$Status;)Ljavax/ws/rs/core/Response$ResponseBuilder;*9
+
+__unknown_file ("
+javax.ws.rs.core.Response*E
+
+__unknown_file ()
+'
+%33 javax.ws.rs.core.Response$Status*
+10*‹
+23D5 D(?≈¬
+D D(@
+%7java.lang.String"2java.text.NumberFormat#format(D)Ljava/lang/String;*;
+
+__unknown_file (
+
+%5java.text.DecimalFormat*"
+
+__unknown_file (
+""2	format(D)*
+17*ß
+12b b(#à
+Ö
+b b(#+
+myJson!org.apache.wink.json4j.JSONObject"__id*F
+
+__unknown_file (*
+(
+%29!org.apache.wink.json4j.JSONObjectÖÇ
+c c(%(
+%31!org.apache.wink.json4j.JSONObject"norg.apache.wink.json4j.JSONObject#put(Ljava/lang/String;Ljava/lang/Object;)Lorg/apache/wink/json4j/JSONObject;*I
+
+__unknown_file (-
++
+myJson!org.apache.wink.json4j.JSONObject*)
+
+__unknown_file (
+	accountId*;
+
+__unknown_file (
+
+	accountNojava.lang.String2)put(Ljava/lang/String;Ljava/lang/Object;)*
+11:)
+8# 8(L
+	accountNojava.lang.String:<
+9 9(&0
+request%javax.servlet.http.HttpServletRequestB86
+4com.ibm.security.appscan.altoromutual.api.AccountAPIH

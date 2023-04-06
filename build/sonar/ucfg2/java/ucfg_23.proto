@@ -1,0 +1,50 @@
+
+…com.ibm.security.appscan.altoromutual.model.User#lookupAccount(Ljava/lang/Long;)Lcom/ibm/security/appscan/altoromutual/model/Account;
+uD:/Documents/Polytechnique/session8/LOG8371/TP3/AltoroJ-TP3/src/com/ibm/security/appscan/altoromutual/model/User.javaU U("5*è
+2V V(v
+t
+V V(>
+account3com.ibm.security.appscan.altoromutual.model.Account"__id*"
+
+__unknown_file (
+""Ø
+Õ
+V V(>
+account3com.ibm.security.appscan.altoromutual.model.Account"
+__arrayGet*Y
+
+__unknown_file (=
+;
+%05com.ibm.security.appscan.altoromutual.model.Account[]*"
+
+__unknown_file (
+""*
+4
+1*[
+3X X("L
+X X(@
+>
+account3com.ibm.security.appscan.altoromutual.model.Account*ä
+4W W(ÌÉ
+W W(
+
+%1long"Ccom.ibm.security.appscan.altoromutual.model.Account#getAccountId()J*\
+
+__unknown_file (@
+>
+account3com.ibm.security.appscan.altoromutual.model.Account2getAccountId()*
+2
+3*¶
+5V V($¡ž
+V V(&;
+%05com.ibm.security.appscan.altoromutual.model.Account[]"tcom.ibm.security.appscan.altoromutual.model.User#getAccounts()[Lcom/ibm/security/appscan/altoromutual/model/Account;*P
+
+__unknown_file (42
+0com.ibm.security.appscan.altoromutual.model.User2getAccounts()*
+2*!
+1Z	 Z("
+Z Z(
+"":+
+U U(0
+accountNumberjava.lang.LongB42
+0com.ibm.security.appscan.altoromutual.model.UserH

@@ -1,0 +1,6 @@
+com.ibm.security.appscan.altoromutual.util.ServletUtil#isAppPropertyTrue(Ljava/lang/String;)Z
+java.util.StringTokenizer#instance-init#
+com.ibm.security.appscan.altoromutual.util.ServletUtil#getAppProperty(Ljava/lang/String;)Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.util.StringTokenizer#<init>(Ljava/lang/String;Ljava/lang/String;Z)V
+java.lang.String#toLowerCase()Ljava/lang/String;

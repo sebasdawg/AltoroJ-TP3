@@ -1,0 +1,5 @@
+com.ibm.security.appscan.altoromutual.util.OperationsUtil#sendFeedback(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+com.ibm.security.appscan.altoromutual.util.ServletUtil#isAppPropertyTrue(Ljava/lang/String;)Z
+com.ibm.security.appscan.altoromutual.util.DBUtil#storeFeedback(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)J
+java.lang.String#valueOf(J)Ljava/lang/String;
+org.apache.commons.lang.StringEscapeUtils#escapeSql(Ljava/lang/String;)Ljava/lang/String;

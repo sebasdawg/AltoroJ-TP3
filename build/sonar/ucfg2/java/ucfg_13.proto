@@ -1,0 +1,708 @@
+
+écom.ibm.security.appscan.altoromutual.api.LoginAPI#login(Ljava/lang/String;Ljavax/servlet/http/HttpServletRequest;)Ljavax/ws/rs/core/Response;Å
+wD:/Documents/Polytechnique/session8/LOG8371/TP3/AltoroJ-TP3/src/com/ibm/security/appscan/altoromutual/api/LoginAPI.java ("startingBlock*>
+25B B(Y".
+B B(Y"
+ 
+%43javax.ws.rs.core.Response*Ì
+26B
+ B(X÷”
+B
+ B(X 
+%43javax.ws.rs.core.Response"Ljavax.ws.rs.core.Response$ResponseBuilder#build()Ljavax/ws/rs/core/Response;*N
+
+__unknown_file (2
+0
+%42)javax.ws.rs.core.Response$ResponseBuilder2build()*
+25*Í
+27B
+ B(P”–
+B
+ B(P0
+%42)javax.ws.rs.core.Response$ResponseBuilder"ojavax.ws.rs.core.Response$ResponseBuilder#entity(Ljava/lang/Object;)Ljavax/ws/rs/core/Response$ResponseBuilder;*N
+
+__unknown_file (2
+0
+%40)javax.ws.rs.core.Response$ResponseBuilder*5
+
+__unknown_file (
+
+%41java.lang.String2entity(Ljava/lang/Object;)*
+26*‘
+28B> B(DΩ∫
+B> B(O
+%41java.lang.String">org.apache.wink.json4j.JSONObject#toString()Ljava/lang/String;*I
+
+__unknown_file (-
++
+myJson!org.apache.wink.json4j.JSONObject2
+toString()*
+27*ã
+29B
+ B(_
+]
+B B()'
+%38 javax.ws.rs.core.Response$Status"__id*"
+
+__unknown_file (
+""_
+]
+B B(5'
+%39 javax.ws.rs.core.Response$Status"__id*"
+
+__unknown_file (
+""≤
+Ø
+B
+ B(60
+%40)javax.ws.rs.core.Response$ResponseBuilder"ojavax.ws.rs.core.Response#status(Ljavax/ws/rs/core/Response$Status;)Ljavax/ws/rs/core/Response$ResponseBuilder;*9
+
+__unknown_file ("
+javax.ws.rs.core.Response*E
+
+__unknown_file ()
+'
+%39 javax.ws.rs.core.Response$Status*
+28*∆
+52# #("XV
+# #('
+%2!org.apache.wink.json4j.JSONObject"!org.apache.wink.json4j.JSONObject’
+“
+# #(#
+%3"=org.apache.wink.json4j.JSONObject#<init>(Ljava/lang/String;)V*E
+
+__unknown_file ()
+'
+%2!org.apache.wink.json4j.JSONObject*:
+
+__unknown_file (
+
+bodyJSONjava.lang.String*
+44*í
+30A A(/˚¯
+A A(/(
+%37!org.apache.wink.json4j.JSONObject"norg.apache.wink.json4j.JSONObject#put(Ljava/lang/String;Ljava/lang/Object;)Lorg/apache/wink/json4j/JSONObject;*I
+
+__unknown_file (-
++
+myJson!org.apache.wink.json4j.JSONObject*%
+
+__unknown_file (	
+error*5
+
+__unknown_file (
+
+%36java.lang.String2)put(Ljava/lang/String;Ljava/lang/Object;)*
+29*Ç
+53! !(&XV
+! !($'
+%0!org.apache.wink.json4j.JSONObject"!org.apache.wink.json4j.JSONObjectá
+Ñ
+! !(&
+%1"+org.apache.wink.json4j.JSONObject#<init>()V*E
+
+__unknown_file ()
+'
+%0!org.apache.wink.json4j.JSONObjectá
+Ñ
+! !('+
+myJson!org.apache.wink.json4j.JSONObject"__id*E
+
+__unknown_file ()
+'
+%0!org.apache.wink.json4j.JSONObject*
+52*…
+31A A(	≤Ø
+A A(.
+%36java.lang.String";java.lang.Throwable#getLocalizedMessage()Ljava/lang/String;*6
+
+__unknown_file (
+
+ejava.lang.Exception2getLocalizedMessage()*
+30*Ô
+32? ?(G|
+z
+? ?(G
+%34java.lang.String"__concat*$
+? ?(-
+Invalid user error: *%
+?0 ?(G
+
+%33java.lang.String⁄◊
+? ?(H
+%35void"0java.io.PrintStream#println(Ljava/lang/String;)V*8
+
+__unknown_file (
+
+%32java.io.PrintStream*5
+
+__unknown_file (
+
+%34java.lang.String2println(Ljava/lang/String;)*
+31*Ï
+10L
+ L(u÷”
+L
+ L(u 
+%65javax.ws.rs.core.Response"Ljavax.ws.rs.core.Response$ResponseBuilder#build()Ljavax/ws/rs/core/Response;*N
+
+__unknown_file (2
+0
+%64)javax.ws.rs.core.Response$ResponseBuilder2build()*
+9*ù
+33? ?(
+R
+P
+? ?(
+%32java.io.PrintStream"__id*"
+
+__unknown_file (
+""≤Ø
+?0 ?(G
+%33java.lang.String";java.lang.Throwable#getLocalizedMessage()Ljava/lang/String;*6
+
+__unknown_file (
+
+ejava.lang.Exception2getLocalizedMessage()*
+32*ﬂ
+11LM L(VY
+W
+LM L(l!
+%63javax.ws.rs.core.MediaType"__id*"
+
+__unknown_file (
+""ÌÍ
+L
+ L(m0
+%64)javax.ws.rs.core.Response$ResponseBuilder"wjavax.ws.rs.core.Response$ResponseBuilder#type(Ljavax/ws/rs/core/MediaType;)Ljavax/ws/rs/core/Response$ResponseBuilder;*N
+
+__unknown_file (2
+0
+%62)javax.ws.rs.core.Response$ResponseBuilder*?
+
+__unknown_file (#
+!
+%63javax.ws.rs.core.MediaType2"type(Ljavax/ws/rs/core/MediaType;)*
+10*j
+34= =(P
+N
+= =(
+ejava.lang.Exception"__id*"
+
+__unknown_file (
+""*
+31
+33*Í
+12L
+ L(G”–
+L
+ L(G0
+%62)javax.ws.rs.core.Response$ResponseBuilder"ojavax.ws.rs.core.Response$ResponseBuilder#entity(Ljava/lang/Object;)Ljavax/ws/rs/core/Response$ResponseBuilder;*N
+
+__unknown_file (2
+0
+%60)javax.ws.rs.core.Response$ResponseBuilder*5
+
+__unknown_file (
+
+%61java.lang.String2entity(Ljava/lang/Object;)*
+11*‘
+13L5 L(;Ω∫
+L5 L(F
+%61java.lang.String">org.apache.wink.json4j.JSONObject#toString()Ljava/lang/String;*I
+
+__unknown_file (-
++
+myJson!org.apache.wink.json4j.JSONObject2
+toString()*
+12*é
+36; ;(Oec
+: :('.
+%30'java.security.InvalidParameterException"'java.security.InvalidParameterExceptionê
+ç
+:
+ ;(P
+%31"Cjava.security.InvalidParameterException#<init>(Ljava/lang/String;)V*L
+
+__unknown_file (0
+.
+%30'java.security.InvalidParameterException*g
+
+__unknown_file (KI
+GWe're sorry, but this username or password was not found in our system.*
+34*ã
+14L
+ L(_
+]
+L L()'
+%58 javax.ws.rs.core.Response$Status"__id*"
+
+__unknown_file (
+""_
+]
+L L(,'
+%59 javax.ws.rs.core.Response$Status"__id*"
+
+__unknown_file (
+""≤
+Ø
+L
+ L(-0
+%60)javax.ws.rs.core.Response$ResponseBuilder"ojavax.ws.rs.core.Response#status(Ljavax/ws/rs/core/Response$Status;)Ljavax/ws/rs/core/Response$ResponseBuilder;*9
+
+__unknown_file ("
+javax.ws.rs.core.Response*E
+
+__unknown_file ()
+'
+%59 javax.ws.rs.core.Response$Status*
+13*ö
+15K K(NÉÄ
+K K(N(
+%57!org.apache.wink.json4j.JSONObject"norg.apache.wink.json4j.JSONObject#put(Ljava/lang/String;Ljava/lang/Object;)Lorg/apache/wink/json4j/JSONObject;*I
+
+__unknown_file (-
++
+myJson!org.apache.wink.json4j.JSONObject*-
+
+__unknown_file (
+Authorization*5
+
+__unknown_file (
+
+%56java.lang.String2)put(Ljava/lang/String;Ljava/lang/Object;)*
+14*È
+389 9(Œ
+À
+9 9(.
+%29boolean"dcom.ibm.security.appscan.altoromutual.util.DBUtil#isValidUser(Ljava/lang/String;Ljava/lang/String;)Z*Q
+
+__unknown_file (5"3
+1com.ibm.security.appscan.altoromutual.util.DBUtil*:
+
+__unknown_file (
+
+usernamejava.lang.String*:
+
+__unknown_file (
+
+passwordjava.lang.String*
+36
+23*É
+16K K(MÏ
+È
+K K(M
+%56java.lang.String"Oorg.apache.commons.codec.binary.Base64#encodeBase64String([B)Ljava/lang/String;*F
+
+__unknown_file (*"(
+&org.apache.commons.codec.binary.Base64*+
+
+__unknown_file (
+
+%55byte[]*
+15*Ñ
+392 2(T
+R
+2 2(
+usernamejava.lang.String"__id*"
+
+__unknown_file (
+""T
+R
+2 2(
+passwordjava.lang.String"__id*"
+
+__unknown_file (
+""Å˛
+3 3(#
+%22java.lang.Object"Korg.apache.wink.json4j.JSONObject#get(Ljava/lang/String;)Ljava/lang/Object;*I
+
+__unknown_file (-
++
+myJson!org.apache.wink.json4j.JSONObject*(
+
+__unknown_file (
+
+username2get(Ljava/lang/String;)òï
+3 3(.
+%23java.lang.String"-java.lang.Object#toString()Ljava/lang/String;*5
+
+__unknown_file (
+
+%22java.lang.Object2
+toString()ûõ
+3 3(<
+%24java.lang.String"0java.lang.String#toLowerCase()Ljava/lang/String;*5
+
+__unknown_file (
+
+%23java.lang.String2toLowerCase()g
+e
+3 3(<
+usernamejava.lang.String"__id*5
+
+__unknown_file (
+
+%24java.lang.StringÅ˛
+4 4(#
+%25java.lang.Object"Korg.apache.wink.json4j.JSONObject#get(Ljava/lang/String;)Ljava/lang/Object;*I
+
+__unknown_file (-
++
+myJson!org.apache.wink.json4j.JSONObject*(
+
+__unknown_file (
+
+password2get(Ljava/lang/String;)òï
+4 4(.
+%26java.lang.String"-java.lang.Object#toString()Ljava/lang/String;*5
+
+__unknown_file (
+
+%25java.lang.Object2
+toString()ûõ
+4 4(<
+%27java.lang.String"0java.lang.String#toLowerCase()Ljava/lang/String;*5
+
+__unknown_file (
+
+%26java.lang.String2toLowerCase()g
+e
+4 4(<
+passwordjava.lang.String"__id*5
+
+__unknown_file (
+
+%27java.lang.Stringp
+n
+6 6(
+%28void"
+__mapClear*I
+
+__unknown_file (-
++
+myJson!org.apache.wink.json4j.JSONObject*
+38*à
+17	I I(†
+}
+	I I(†
+%54java.lang.String"__concat*%
+I I(~
+
+%52java.lang.String*&
+	I I(†
+
+%53java.lang.Stringi
+g
+	I I(°
+	authTokenjava.lang.String"__id*5
+
+__unknown_file (
+
+%54java.lang.StringÑÅ
+K8 K(L
+%55byte[]"java.lang.String#getBytes()[B*;
+
+__unknown_file (
+
+	authTokenjava.lang.String2
+getBytes()*
+16*„
+18I I(y}
+{
+I I(y
+%51java.lang.String"__concat*%
+I I(I
+
+%48java.lang.String*%
+IK I(y
+
+%50java.lang.Stringi
+g
+I I(~
+%52java.lang.String"__concat*%
+I I(y
+
+%51java.lang.String*
+I{ I(~
+:‚
+ﬂ
+	I I(†
+%53java.lang.String"^com.ibm.security.appscan.altoromutual.util.OperationsUtil#makeRandomString()Ljava/lang/String;*Y
+
+__unknown_file (=";
+9com.ibm.security.appscan.altoromutual.util.OperationsUtil*
+17*É
+19IK I(yÏ
+È
+IK I(y
+%50java.lang.String"Oorg.apache.commons.codec.binary.Base64#encodeBase64String([B)Ljava/lang/String;*F
+
+__unknown_file (*"(
+&org.apache.commons.codec.binary.Base64*+
+
+__unknown_file (
+
+%49byte[]*
+18*£	
+startingBlock (Lé
+ã
+ (
+%75"
+__annotate*0
+
+__unknown_file (
+javax.ws.rs.POST*:
+
+__unknown_file (
+
+bodyJSONjava.lang.String°
+û
+ (
+%76"
+__annotate*C
+
+__unknown_file ('%
+#javax.annotation.security.PermitAll*:
+
+__unknown_file (
+
+bodyJSONjava.lang.StringÉ
+Ä
+ (&
+bodyJSONjava.lang.String"__annotation*#
+
+__unknown_file (
+
+%75*#
+
+__unknown_file (
+
+%76¢
+ü
+ (
+%77"
+__annotate*0
+
+__unknown_file (
+javax.ws.rs.POST*N
+
+__unknown_file (2
+0
+request%javax.servlet.http.HttpServletRequestµ
+≤
+ (
+%78"
+__annotate*C
+
+__unknown_file ('%
+#javax.annotation.security.PermitAll*N
+
+__unknown_file (2
+0
+request%javax.servlet.http.HttpServletRequest™
+ß
+( (0
+%79"
+__annotate*8
+
+__unknown_file (
+javax.ws.rs.core.Context*N
+
+__unknown_file (2
+0
+request%javax.servlet.http.HttpServletRequestº
+π
+D (K0
+request%javax.servlet.http.HttpServletRequest"__annotation*#
+
+__unknown_file (
+
+%77*#
+
+__unknown_file (
+
+%78*#
+
+__unknown_file (
+
+%79*
+53*=
+9L L(v".
+L L(v"
+ 
+%65javax.ws.rs.core.Response*•
+40- -(	p
+n
+- -(
+%14void"
+__mapClear*I
+
+__unknown_file (-
++
+myJson!org.apache.wink.json4j.JSONObjectåâ
+. .(@(
+%15!org.apache.wink.json4j.JSONObject"norg.apache.wink.json4j.JSONObject#put(Ljava/lang/String;Ljava/lang/Object;)Lorg/apache/wink/json4j/JSONObject;*I
+
+__unknown_file (-
++
+myJson!org.apache.wink.json4j.JSONObject*%
+
+__unknown_file (	
+error*F
+
+__unknown_file (*(
+&username or password parameter missing2)put(Ljava/lang/String;Ljava/lang/Object;)_
+]
+/ /()'
+%16 javax.ws.rs.core.Response$Status"__id*"
+
+__unknown_file (
+""_
+]
+/ /(5'
+%17 javax.ws.rs.core.Response$Status"__id*"
+
+__unknown_file (
+""≤
+Ø
+/
+ /(60
+%18)javax.ws.rs.core.Response$ResponseBuilder"ojavax.ws.rs.core.Response#status(Ljavax/ws/rs/core/Response$Status;)Ljavax/ws/rs/core/Response$ResponseBuilder;*9
+
+__unknown_file ("
+javax.ws.rs.core.Response*E
+
+__unknown_file ()
+'
+%17 javax.ws.rs.core.Response$StatusΩ∫
+/> /(O
+%19java.lang.String">org.apache.wink.json4j.JSONObject#toString()Ljava/lang/String;*I
+
+__unknown_file (-
++
+myJson!org.apache.wink.json4j.JSONObject2
+toString()”–
+/
+ /(P0
+%20)javax.ws.rs.core.Response$ResponseBuilder"ojavax.ws.rs.core.Response$ResponseBuilder#entity(Ljava/lang/Object;)Ljavax/ws/rs/core/Response$ResponseBuilder;*N
+
+__unknown_file (2
+0
+%18)javax.ws.rs.core.Response$ResponseBuilder*5
+
+__unknown_file (
+
+%19java.lang.String2entity(Ljava/lang/Object;)÷”
+/
+ /(X 
+%21javax.ws.rs.core.Response"Ljavax.ws.rs.core.Response$ResponseBuilder#build()Ljavax/ws/rs/core/Response;*N
+
+__unknown_file (2
+0
+%20)javax.ws.rs.core.Response$ResponseBuilder2build()".
+/ /(Y"
+ 
+%21javax.ws.rs.core.Response*Ç
+42,* ,(0Á‰
+,* ,(H
+%13boolean"2java.util.HashMap#containsKey(Ljava/lang/Object;)Z*I
+
+__unknown_file (-
++
+myJson!org.apache.wink.json4j.JSONObject*(
+
+__unknown_file (
+
+password2containsKey(Ljava/lang/Object;)*
+39
+40*Ö
+20IF I(Ii
+g
+I I(I
+%48java.lang.String"__concat*%
+I I(D
+
+%47java.lang.String*
+IF I(I
+:ÉÄ
+Ie I(x
+%49byte[]"java.lang.String#getBytes()[B*:
+
+__unknown_file (
+
+passwordjava.lang.String2
+getBytes()*
+19*Ü
+43, ,(Á‰
+, ,(&
+%12boolean"2java.util.HashMap#containsKey(Ljava/lang/Object;)Z*I
+
+__unknown_file (-
++
+myJson!org.apache.wink.json4j.JSONObject*(
+
+__unknown_file (
+
+username2containsKey(Ljava/lang/Object;)*
+39
+40
+42*É
+21I I(DÏ
+È
+I I(D
+%47java.lang.String"Oorg.apache.commons.codec.binary.Base64#encodeBase64String([B)Ljava/lang/String;*F
+
+__unknown_file (*"(
+&org.apache.commons.codec.binary.Base64*+
+
+__unknown_file (
+
+%46byte[]*
+20*û
+44# #(#á
+Ñ
+# #(#+
+myJson!org.apache.wink.json4j.JSONObject"__id*E
+
+__unknown_file ()
+'
+%2!org.apache.wink.json4j.JSONObject*
+43*ö
+22I I(ÉÄ
+I0 I(C
+%46byte[]"java.lang.String#getBytes()[B*:
+
+__unknown_file (
+
+usernamejava.lang.String2
+getBytes()*
+21*î
+23F F(	~
+|
+F F(7
+%44java.lang.String"__concat**
+F F(!
+
+usernamejava.lang.String*!
+F$ F(7
+ is now logged in˝˙
+F F(8(
+%45!org.apache.wink.json4j.JSONObject"norg.apache.wink.json4j.JSONObject#put(Ljava/lang/String;Ljava/lang/Object;)Lorg/apache/wink/json4j/JSONObject;*I
+
+__unknown_file (-
++
+myJson!org.apache.wink.json4j.JSONObject*'
+
+__unknown_file (	
+success*5
+
+__unknown_file (
+
+%44java.lang.String2)put(Ljava/lang/String;Ljava/lang/Object;)*
+22:(
+ ('
+bodyJSONjava.lang.String:<
+( (K0
+request%javax.servlet.http.HttpServletRequestB64
+2com.ibm.security.appscan.altoromutual.api.LoginAPIH

@@ -1,0 +1,2 @@
+com.ibm.security.appscan.altoromutual.util.ServletUtil#getAllFeedback()Ljava/util/ArrayList;
+com.ibm.security.appscan.altoromutual.util.DBUtil#getFeedback(J)Ljava/util/ArrayList;

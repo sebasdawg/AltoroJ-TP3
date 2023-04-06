@@ -1,0 +1,8 @@
+com.ibm.security.appscan.altoromutual.util.OperationsUtil#getUser(Ljavax/servlet/http/HttpServletRequest;)Lcom/ibm/security/appscan/altoromutual/model/User;
+java.lang.String#instance-init#
+java.util.StringTokenizer#instance-init#
+java.util.StringTokenizer#<init>(Ljava/lang/String;Ljava/lang/String;)V
+java.lang.String#replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+org.apache.commons.codec.binary.Base64#decodeBase64(Ljava/lang/String;)[B
+com.ibm.security.appscan.altoromutual.util.DBUtil#getUserInfo(Ljava/lang/String;)Lcom/ibm/security/appscan/altoromutual/model/User;
+java.lang.String#<init>([B)V

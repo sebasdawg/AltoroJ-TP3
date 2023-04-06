@@ -1,0 +1,3 @@
+com.ibm.security.appscan.altoromutual.servlet.TransferServlet#doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V
+==
+doPost com.ibm.security.appscan.altoromutual.servlet.TransferServlet#doPost(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V

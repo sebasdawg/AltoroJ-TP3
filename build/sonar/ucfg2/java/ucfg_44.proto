@@ -1,0 +1,148 @@
+
+–com.ibm.security.appscan.altoromutual.util.ServletUtil#establishSession(Ljava/lang/String;Ljavax/servlet/http/HttpSession;)Ljavax/servlet/http/Cookie;‡
+{D:/Documents/Polytechnique/session8/LOG8371/TP3/AltoroJ-TP3/src/com/ibm/security/appscan/altoromutual/util/ServletUtil.javaÔ Ô(&"startingBlock*K
+3
+Û Û(":
+
+Û Û(,
+*
+accountCookiejavax.servlet.http.Cookie*S
+startingBlock
+Ô& Ô(L1/
+
+Ô& Ô('
+%jsp_context"java.util.HashMap*
+8*Í
+4
+Ù Ù(V
+}
+
+Ù Ù(V*
+accountCookiejavax.servlet.http.Cookie"__id*=
+
+__unknown_file (!
+
+%4javax.servlet.http.CookieR
+P
+
+Ú Ú(5
+%6java.lang.String"__id*$
+
+__unknown_file (
+userá
+Þ
+
+Ú Ú(<
+
+%7void"__mapSet*,
+
+__unknown_file (
+
+%jsp_context*4
+
+__unknown_file (
+
+%6java.lang.String*V
+
+__unknown_file (:
+8
+user0com.ibm.security.appscan.altoromutual.model.User*
+3*Ì
+5
+Ø Ø(@q
+o
+
+Ø Ø(@%
+accountStringListjava.lang.String"__id*4
+
+__unknown_file (
+
+%2java.lang.String\
+Z
+
+Ù( Ù(A
+%3java.lang.String"__id*.
+
+__unknown_file (
+AltoroAccountsJH
+
+Ù! Ù('
+%4javax.servlet.http.Cookie"javax.servlet.http.Cookie˜
+•
+
+Ù Ù(U
+%5"Gjavax.servlet.http.Cookie#<init>(Ljava/lang/String;Ljava/lang/String;)V*=
+
+__unknown_file (!
+
+%4javax.servlet.http.Cookie*4
+
+__unknown_file (
+
+%3java.lang.String*C
+
+__unknown_file ('
+%
+accountStringListjava.lang.String*
+4*·
+6
+× ×(+³
+°
+
+× ×(+A
+accounts5com.ibm.security.appscan.altoromutual.model.Account[]"__id*Y
+
+__unknown_file (=
+;
+%15com.ibm.security.appscan.altoromutual.model.Account[]ê
+ç
+
+Ø! Ø(?
+%2java.lang.String"Šcom.ibm.security.appscan.altoromutual.model.Account#toBase64List([Lcom/ibm/security/appscan/altoromutual/model/Account;)Ljava/lang/String;*S
+
+__unknown_file (7"5
+3com.ibm.security.appscan.altoromutual.model.Account*_
+
+__unknown_file (C
+A
+accounts5com.ibm.security.appscan.altoromutual.model.Account[]*
+5*è
+7
+Ö Ö(,¥
+¢
+
+Ö Ö(,8
+user0com.ibm.security.appscan.altoromutual.model.User"__id*T
+
+__unknown_file (8
+6
+%00com.ibm.security.appscan.altoromutual.model.User©¦
+
+× ×(*;
+%15com.ibm.security.appscan.altoromutual.model.Account[]"tcom.ibm.security.appscan.altoromutual.model.User#getAccounts()[Lcom/ibm/security/appscan/altoromutual/model/Account;*V
+
+__unknown_file (:
+8
+user0com.ibm.security.appscan.altoromutual.model.User2getAccounts()*
+6*ó
+8
+Ö Ö(Ü
+Ù
+
+Ö Ö(+6
+%00com.ibm.security.appscan.altoromutual.model.User"ƒcom.ibm.security.appscan.altoromutual.util.DBUtil#getUserInfo(Ljava/lang/String;)Lcom/ibm/security/appscan/altoromutual/model/User;*Q
+
+__unknown_file (5"3
+1com.ibm.security.appscan.altoromutual.util.DBUtil*:
+
+__unknown_file (
+
+usernamejava.lang.String*
+7:*
+
+Ô' Ô(7
+usernamejava.lang.String:7
+
+Ô8 Ô(K)
+sessionjavax.servlet.http.HttpSessionB:"8
+6com.ibm.security.appscan.altoromutual.util.ServletUtilH

@@ -1,0 +1,2 @@
+com.ibm.security.appscan.altoromutual.model.Account#getAccount(J)Lcom/ibm/security/appscan/altoromutual/model/Account;
+com.ibm.security.appscan.altoromutual.util.DBUtil#getAccount(J)Lcom/ibm/security/appscan/altoromutual/model/Account;

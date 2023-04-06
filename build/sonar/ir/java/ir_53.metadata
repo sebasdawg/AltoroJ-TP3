@@ -1,0 +1,5 @@
+com.ibm.security.appscan.altoromutual.model.Account#getAccount(Ljava/lang/String;)Lcom/ibm/security/appscan/altoromutual/model/Account;
+java.lang.String#length()I
+java.lang.Long#parseLong(Ljava/lang/String;)J
+com.ibm.security.appscan.altoromutual.model.Account#getAccount(J)Lcom/ibm/security/appscan/altoromutual/model/Account;
+java.lang.String#trim()Ljava/lang/String;

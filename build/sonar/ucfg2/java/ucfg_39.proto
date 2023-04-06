@@ -1,0 +1,17 @@
+
+Xcom.ibm.security.appscan.altoromutual.util.ServletUtil#getBankUsers()[Ljava/lang/String;‡
+{D:/Documents/Polytechnique/session8/LOG8371/TP3/AltoroJ-TP3/src/com/ibm/security/appscan/altoromutual/util/ServletUtil.javað ð($"1*‘
+1
+ñ	 ñ(Õ
+Ò
+
+ñ	 ñ("
+%0java.lang.String[]"Wcom.ibm.security.appscan.altoromutual.util.DBUtil#getBankUsernames()[Ljava/lang/String;*Q
+
+__unknown_file (5"3
+1com.ibm.security.appscan.altoromutual.util.DBUtil"(
+
+ñ ñ(#
+
+%0java.lang.String[]B:"8
+6com.ibm.security.appscan.altoromutual.util.ServletUtilH

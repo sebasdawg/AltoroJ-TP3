@@ -1,0 +1,47 @@
+
+™com.ibm.security.appscan.altoromutual.util.ServletUtil#getUser(Ljavax/servlet/http/HttpServletRequest;)Lcom/ibm/security/appscan/altoromutual/model/User;‡
+{D:/Documents/Polytechnique/session8/LOG8371/TP3/AltoroJ-TP3/src/com/ibm/security/appscan/altoromutual/util/ServletUtil.javaò ò("1*·
+1
+ó ó(çä
+
+ó ó(($
+%0javax.servlet.http.HttpSession"Rjavax.servlet.http.HttpServletRequest#getSession()Ljavax/servlet/http/HttpSession;*N
+
+__unknown_file (2
+0
+request%javax.servlet.http.HttpServletRequest2getSession()R
+P
+
+ó6 ó(S
+%1java.lang.String"__id*$
+
+__unknown_file (
+user•
+’
+
+ó ó(T
+%2java.lang.Object"__mapGet*,
+
+__unknown_file (
+
+%jsp_context*4
+
+__unknown_file (
+
+%1java.lang.String…
+‚
+
+ó ó(U8
+user0com.ibm.security.appscan.altoromutual.model.User"__id*4
+
+__unknown_file (
+
+%2java.lang.Object"H
+
+ô ô(:
+8
+user0com.ibm.security.appscan.altoromutual.model.User:>
+
+ò ò(60
+request%javax.servlet.http.HttpServletRequestB:"8
+6com.ibm.security.appscan.altoromutual.util.ServletUtilH

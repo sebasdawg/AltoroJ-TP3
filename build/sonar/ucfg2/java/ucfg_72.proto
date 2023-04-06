@@ -1,0 +1,15 @@
+
+^com.ibm.security.appscan.altoromutual.model.Transaction#getTransactionType()Ljava/lang/String;†
+|D:/Documents/Polytechnique/session8/LOG8371/TP3/AltoroJ-TP3/src/com/ibm/security/appscan/altoromutual/model/Transaction.java4 4(!"1*Ï
+15	 5(™
+–
+5	 5(
+%0java.lang.String"__id*l
+
+__unknown_file (P*N9
+7com.ibm.security.appscan.altoromutual.model.Transaction"
+transactionType"$
+5 5(
+
+%0java.lang.StringB;9
+7com.ibm.security.appscan.altoromutual.model.TransactionH

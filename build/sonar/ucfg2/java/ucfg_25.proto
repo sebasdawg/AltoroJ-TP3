@@ -1,0 +1,48 @@
+
+⁄com.ibm.security.appscan.altoromutual.model.User#getUserTransactions(Ljava/lang/String;Ljava/lang/String;[Lcom/ibm/security/appscan/altoromutual/model/Account;)[Lcom/ibm/security/appscan/altoromutual/model/Transaction;
+uD:/Documents/Polytechnique/session8/LOG8371/TP3/AltoroJ-TP3/src/com/ibm/security/appscan/altoromutual/model/User.javae e()"1*¶
+1g g(#Å
+
+g g($I
+transactions9com.ibm.security.appscan.altoromutual.model.Transaction[]"__id*"
+
+__unknown_file (
+""˘
+ˆ
+h h(I?
+%09com.ibm.security.appscan.altoromutual.model.Transaction[]"ÿcom.ibm.security.appscan.altoromutual.util.DBUtil#getTransactions(Ljava/lang/String;Ljava/lang/String;[Lcom/ibm/security/appscan/altoromutual/model/Account;I)[Lcom/ibm/security/appscan/altoromutual/model/Transaction;*Q
+
+__unknown_file (5"3
+1com.ibm.security.appscan.altoromutual.util.DBUtil*;
+
+__unknown_file (
+
+	startDatejava.lang.String*9
+
+__unknown_file (
+
+endDatejava.lang.String*_
+
+__unknown_file (C
+A
+accounts5com.ibm.security.appscan.altoromutual.model.Account[]*"
+
+__unknown_file (
+""Ω
+∫
+h h(II
+transactions9com.ibm.security.appscan.altoromutual.model.Transaction[]"__id*]
+
+__unknown_file (A
+?
+%09com.ibm.security.appscan.altoromutual.model.Transaction[]"W
+i i(K
+I
+transactions9com.ibm.security.appscan.altoromutual.model.Transaction[]:)
+e* e(;
+	startDatejava.lang.String:'
+e< e(K
+endDatejava.lang.String:M
+eL e(^A
+accounts5com.ibm.security.appscan.altoromutual.model.Account[]B42
+0com.ibm.security.appscan.altoromutual.model.UserH

@@ -1,0 +1,2 @@
+com.ibm.security.appscan.altoromutual.servlet.AdminLoginServlet#doPost(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V
+java.lang.String#equals(Ljava/lang/Object;)Z

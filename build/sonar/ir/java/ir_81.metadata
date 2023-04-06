@@ -1,0 +1,2 @@
+com.ibm.security.appscan.altoromutual.servlet.SubscribeServlet#doPost(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V
+java.lang.String#matches(Ljava/lang/String;)Z

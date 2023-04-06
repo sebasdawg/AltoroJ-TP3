@@ -1,0 +1,2 @@
+com.ibm.security.appscan.altoromutual.api.AltoroAPI#<init>()V
+org.glassfish.jersey.server.ResourceConfig#packages([Ljava/lang/String;)Lorg/glassfish/jersey/server/ResourceConfig;

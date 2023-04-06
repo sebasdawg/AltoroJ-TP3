@@ -1,0 +1,2 @@
+com.ibm.security.appscan.altoromutual.util.ServletUtil#sanitizeWeb(Ljava/lang/String;)Ljava/lang/String;
+org.apache.commons.lang.StringEscapeUtils#escapeHtml(Ljava/lang/String;)Ljava/lang/String;

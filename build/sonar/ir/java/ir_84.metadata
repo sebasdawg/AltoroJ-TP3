@@ -1,0 +1,7 @@
+com.ibm.security.appscan.altoromutual.util.DBUtil#getUserInfo(Ljava/lang/String;)Lcom/ibm/security/appscan/altoromutual/model/User;
+java.lang.String#length()I
+com.ibm.security.appscan.altoromutual.model.User#instance-init#
+com.ibm.security.appscan.altoromutual.util.DBUtil#getConnection()Ljava/sql/Connection;
+java.lang.String#trim()Ljava/lang/String;
+com.ibm.security.appscan.altoromutual.model.User#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z

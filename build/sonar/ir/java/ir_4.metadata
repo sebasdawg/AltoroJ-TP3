@@ -1,0 +1,5 @@
+com.ibm.security.appscan.altoromutual.servlet.TransferServlet#doPost(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V
+java.lang.Double#valueOf(Ljava/lang/String;)Ljava/lang/Double;
+java.lang.Long#parseLong(Ljava/lang/String;)J
+com.ibm.security.appscan.altoromutual.util.OperationsUtil#doServletTransfer(Ljavax/servlet/http/HttpServletRequest;JLjava/lang/String;D)Ljava/lang/String;
+com.ibm.security.appscan.altoromutual.util.ServletUtil#isLoggedin(Ljavax/servlet/http/HttpServletRequest;)Z

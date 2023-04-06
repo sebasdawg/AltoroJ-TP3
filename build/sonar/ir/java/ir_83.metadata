@@ -1,0 +1,4 @@
+com.ibm.security.appscan.altoromutual.util.DBUtil#isValidUser(Ljava/lang/String;Ljava/lang/String;)Z
+java.lang.String#length()I
+com.ibm.security.appscan.altoromutual.util.DBUtil#getConnection()Ljava/sql/Connection;
+java.lang.String#trim()Ljava/lang/String;

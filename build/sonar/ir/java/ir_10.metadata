@@ -1,0 +1,2 @@
+com.ibm.security.appscan.altoromutual.servlet.FeedbackServlet#doPost(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V
+com.ibm.security.appscan.altoromutual.util.OperationsUtil#sendFeedback(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;

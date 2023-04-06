@@ -1,0 +1,12 @@
+com.ibm.security.appscan.altoromutual.model.Account#fromBase64List(Ljava/lang/String;)[Lcom/ibm/security/appscan/altoromutual/model/Account;
+java.util.ArrayList#<init>()V
+java.lang.Double#valueOf(Ljava/lang/String;)Ljava/lang/Double;
+java.lang.String#instance-init#
+java.util.StringTokenizer#instance-init#
+java.util.StringTokenizer#<init>(Ljava/lang/String;Ljava/lang/String;)V
+java.lang.Long#valueOf(Ljava/lang/String;)Ljava/lang/Long;
+java.util.ArrayList#instance-init#
+org.apache.commons.codec.binary.Base64#decodeBase64(Ljava/lang/String;)[B
+com.ibm.security.appscan.altoromutual.model.Account#<init>(JLjava/lang/String;D)V
+java.lang.String#<init>([B)V
+com.ibm.security.appscan.altoromutual.model.Account#instance-init#

@@ -1,0 +1,1 @@
+com.ibm.security.appscan.altoromutual.util.ServletUtil#getUser(Ljavax/servlet/http/HttpServletRequest;)Lcom/ibm/security/appscan/altoromutual/model/User;

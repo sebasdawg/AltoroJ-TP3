@@ -1,0 +1,2 @@
+com.ibm.security.appscan.altoromutual.model.User#getUserTransactions(Ljava/lang/String;Ljava/lang/String;[Lcom/ibm/security/appscan/altoromutual/model/Account;)[Lcom/ibm/security/appscan/altoromutual/model/Transaction;
+com.ibm.security.appscan.altoromutual.util.DBUtil#getTransactions(Ljava/lang/String;Ljava/lang/String;[Lcom/ibm/security/appscan/altoromutual/model/Account;I)[Lcom/ibm/security/appscan/altoromutual/model/Transaction;

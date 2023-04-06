@@ -1,0 +1,4 @@
+com.ibm.security.appscan.altoromutual.filter.AdminFilter#doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V
+java.lang.StringBuffer#toString()Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.lang.String#endsWith(Ljava/lang/String;)Z

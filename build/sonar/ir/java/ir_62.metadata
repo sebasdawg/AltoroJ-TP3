@@ -1,0 +1,13 @@
+com.ibm.security.appscan.altoromutual.model.Account#toBase64List([Lcom/ibm/security/appscan/altoromutual/model/Account;)Ljava/lang/String;
+java.lang.StringBuffer#append(D)Ljava/lang/StringBuffer;
+java.lang.StringBuffer#<init>()V
+java.lang.StringBuffer#toString()Ljava/lang/String;
+java.lang.StringBuffer#instance-init#
+java.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+org.apache.commons.codec.binary.Base64#encodeBase64String([B)Ljava/lang/String;
+java.lang.StringBuffer#append(J)Ljava/lang/StringBuffer;
+java.lang.String#getBytes()[B
+==
+getAccountId com.ibm.security.appscan.altoromutual.model.Account#getAccountId()J
+getAccountName com.ibm.security.appscan.altoromutual.model.Account#getAccountName()Ljava/lang/String;
+getBalance com.ibm.security.appscan.altoromutual.model.Account#getBalance()D

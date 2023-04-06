@@ -1,0 +1,9 @@
+com.ibm.security.appscan.altoromutual.servlet.AdminServlet#doPost(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V
+com.ibm.security.appscan.altoromutual.util.DBUtil#addAccount(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+com.ibm.security.appscan.altoromutual.util.DBUtil#changePassword(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+java.lang.String#length()I
+java.lang.StringBuffer#toString()Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+com.ibm.security.appscan.altoromutual.util.DBUtil#addUser(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+java.lang.String#endsWith(Ljava/lang/String;)Z
+java.lang.String#trim()Ljava/lang/String;

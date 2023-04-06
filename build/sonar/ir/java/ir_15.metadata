@@ -1,0 +1,5 @@
+com.ibm.security.appscan.altoromutual.servlet.SurveyServlet#doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V
+java.lang.String#length()I
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.lang.String#endsWith(Ljava/lang/String;)Z
+java.lang.String#trim()Ljava/lang/String;

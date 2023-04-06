@@ -1,0 +1,2 @@
+com.ibm.security.appscan.altoromutual.util.ServletUtil#addSpecialBankUsers(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+com.ibm.security.appscan.altoromutual.util.DBUtil#addSpecialUser(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;

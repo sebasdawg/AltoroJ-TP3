@@ -1,0 +1,4 @@
+com.ibm.security.appscan.altoromutual.api.FeedbackAPI#getFeedback(Ljava/lang/String;Ljavax/servlet/http/HttpServletRequest;)Ljavax/ws/rs/core/Response;
+java.lang.Long#parseLong(Ljava/lang/String;)J
+com.ibm.security.appscan.altoromutual.util.ServletUtil#getFeedback(J)Lcom/ibm/security/appscan/altoromutual/model/Feedback;
+javax.ws.rs.core.Response#status(Ljavax/ws/rs/core/Response$Status;)Ljavax/ws/rs/core/Response$ResponseBuilder;

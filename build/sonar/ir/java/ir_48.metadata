@@ -1,0 +1,5 @@
+com.ibm.security.appscan.altoromutual.servlet.RedirectServlet#doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V
+java.lang.String#toString()Ljava/lang/String;
+java.lang.String#endsWith(Ljava/lang/String;)Z
+java.lang.String#substring(II)Ljava/lang/String;
+java.lang.String#lastIndexOf(Ljava/lang/String;)I

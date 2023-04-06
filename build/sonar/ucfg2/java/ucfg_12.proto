@@ -1,0 +1,135 @@
+
+Åcom.ibm.security.appscan.altoromutual.api.LoginAPI#checkLogin(Ljavax/servlet/http/HttpServletRequest;)Ljavax/ws/rs/core/Response;Å
+wD:/Documents/Polytechnique/session8/LOG8371/TP3/AltoroJ-TP3/src/com/ibm/security/appscan/altoromutual/api/LoginAPI.java ("startingBlock*â
+startingBlock (@°
+û
+ (
+%11"
+__annotate*/
+
+__unknown_file (
+javax.ws.rs.GET*N
+
+__unknown_file (2
+0
+request%javax.servlet.http.HttpServletRequest™
+ß
+ ($
+%12"
+__annotate*8
+
+__unknown_file (
+javax.ws.rs.core.Context*N
+
+__unknown_file (2
+0
+request%javax.servlet.http.HttpServletRequestó
+î
+8 (?0
+request%javax.servlet.http.HttpServletRequest"__annotation*#
+
+__unknown_file (
+
+%11*#
+
+__unknown_file (
+
+%12*
+1*æ
+1 (&XV
+ ($'
+%0!org.apache.wink.json4j.JSONObject"!org.apache.wink.json4j.JSONObjectá
+Ñ
+ (&
+%1"+org.apache.wink.json4j.JSONObject#<init>()V*E
+
+__unknown_file ()
+'
+%0!org.apache.wink.json4j.JSONObjectá
+Ñ
+ ('+
+myJson!org.apache.wink.json4j.JSONObject"__id*E
+
+__unknown_file ()
+'
+%0!org.apache.wink.json4j.JSONObjectÏÈ
+ ( '
+%2!org.apache.wink.json4j.JSONObject"norg.apache.wink.json4j.JSONObject#put(Ljava/lang/String;Ljava/lang/Object;)Lorg/apache/wink/json4j/JSONObject;*I
+
+__unknown_file (-
++
+myJson!org.apache.wink.json4j.JSONObject*(
+
+__unknown_file (
+
+loggedin*$
+
+__unknown_file (
+true2)put(Ljava/lang/String;Ljava/lang/Object;)^
+\
+ ((&
+%3 javax.ws.rs.core.Response$Status"__id*"
+
+__unknown_file (
+""^
+\
+ (+&
+%4 javax.ws.rs.core.Response$Status"__id*"
+
+__unknown_file (
+""∞
+≠
+	 (,/
+%5)javax.ws.rs.core.Response$ResponseBuilder"ojavax.ws.rs.core.Response#status(Ljavax/ws/rs/core/Response$Status;)Ljavax/ws/rs/core/Response$ResponseBuilder;*9
+
+__unknown_file ("
+javax.ws.rs.core.Response*D
+
+__unknown_file ((
+&
+%4 javax.ws.rs.core.Response$Statusºπ
+4 (E
+%6java.lang.String">org.apache.wink.json4j.JSONObject#toString()Ljava/lang/String;*I
+
+__unknown_file (-
++
+myJson!org.apache.wink.json4j.JSONObject2
+toString()–Õ
+	 (F/
+%7)javax.ws.rs.core.Response$ResponseBuilder"ojavax.ws.rs.core.Response$ResponseBuilder#entity(Ljava/lang/Object;)Ljavax/ws/rs/core/Response$ResponseBuilder;*M
+
+__unknown_file (1
+/
+%5)javax.ws.rs.core.Response$ResponseBuilder*4
+
+__unknown_file (
+
+%6java.lang.String2entity(Ljava/lang/Object;)X
+V
+L (k 
+%8javax.ws.rs.core.MediaType"__id*"
+
+__unknown_file (
+""ÍÁ
+	 (l/
+%9)javax.ws.rs.core.Response$ResponseBuilder"wjavax.ws.rs.core.Response$ResponseBuilder#type(Ljavax/ws/rs/core/MediaType;)Ljavax/ws/rs/core/Response$ResponseBuilder;*M
+
+__unknown_file (1
+/
+%7)javax.ws.rs.core.Response$ResponseBuilder*>
+
+__unknown_file ("
+ 
+%8javax.ws.rs.core.MediaType2"type(Ljavax/ws/rs/core/MediaType;)’“
+	 (t 
+%10javax.ws.rs.core.Response"Ljavax.ws.rs.core.Response$ResponseBuilder#build()Ljavax/ws/rs/core/Response;*M
+
+__unknown_file (1
+/
+%9)javax.ws.rs.core.Response$ResponseBuilder2build()".
+ (u"
+ 
+%10javax.ws.rs.core.Response:<
+ (?0
+request%javax.servlet.http.HttpServletRequestB64
+2com.ibm.security.appscan.altoromutual.api.LoginAPIH

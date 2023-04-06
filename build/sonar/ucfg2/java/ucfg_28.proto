@@ -1,0 +1,119 @@
+
+¢com.ibm.security.appscan.altoromutual.util.OperationsUtil#sendFeedback(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;ˆ
+~D:/Documents/Polytechnique/session8/LOG8371/TP3/AltoroJ-TP3/src/com/ibm/security/appscan/altoromutual/util/OperationsUtil.javaw w(""3*–
+2{ {(„
+
+{ {(-
+%1java.lang.String"Yorg.apache.commons.lang.StringEscapeUtils#escapeSql(Ljava/lang/String;)Ljava/lang/String;*I
+
+__unknown_file (-"+
+)org.apache.commons.lang.StringEscapeUtils*7
+
+__unknown_file (
+
+emailjava.lang.Stringc
+a
+{ {(-
+emailjava.lang.String"__id*4
+
+__unknown_file (
+
+%1java.lang.String†
+ƒ
+| |(1
+%2java.lang.String"Yorg.apache.commons.lang.StringEscapeUtils#escapeSql(Ljava/lang/String;)Ljava/lang/String;*I
+
+__unknown_file (-"+
+)org.apache.commons.lang.StringEscapeUtils*9
+
+__unknown_file (
+
+subjectjava.lang.Stringe
+c
+| |(1
+subjectjava.lang.String"__id*4
+
+__unknown_file (
+
+%2java.lang.String‡
+„
+} }(3
+%3java.lang.String"Yorg.apache.commons.lang.StringEscapeUtils#escapeSql(Ljava/lang/String;)Ljava/lang/String;*I
+
+__unknown_file (-"+
+)org.apache.commons.lang.StringEscapeUtils*:
+
+__unknown_file (
+
+commentsjava.lang.Stringf
+d
+} }(3
+commentsjava.lang.String"__id*4
+
+__unknown_file (
+
+%3java.lang.Stringá
+Þ
+ (A
+
+%4long"Šcom.ibm.security.appscan.altoromutual.util.DBUtil#storeFeedback(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)J*Q
+
+__unknown_file (5"3
+1com.ibm.security.appscan.altoromutual.util.DBUtil*6
+
+__unknown_file (
+
+namejava.lang.String*7
+
+__unknown_file (
+
+emailjava.lang.String*9
+
+__unknown_file (
+
+subjectjava.lang.String*:
+
+__unknown_file (
+
+commentsjava.lang.String¬
+©
+
+€
+ €(
+%5java.lang.String"-java.lang.String#valueOf(J)Ljava/lang/String;*0
+
+__unknown_file ("
+java.lang.String*"
+
+__unknown_file (
+"""&
+
+€ €(
+
+%5java.lang.String*¤
+3z z(Œ
+‰
+z z(>
+%0boolean"]com.ibm.security.appscan.altoromutual.util.ServletUtil#isAppPropertyTrue(Ljava/lang/String;)Z*V
+
+__unknown_file (:"8
+6com.ibm.security.appscan.altoromutual.util.ServletUtil*7
+
+__unknown_file (
+enableFeedbackRetention*
+2
+1*%
+1
+ƒ	 ƒ("
+
+ƒ ƒ(
+"":$
+w# w(/
+namejava.lang.String:%
+w0 w(=
+emailjava.lang.String:'
+x x(
+subjectjava.lang.String:(
+x x("
+commentsjava.lang.StringB=";
+9com.ibm.security.appscan.altoromutual.util.OperationsUtilH

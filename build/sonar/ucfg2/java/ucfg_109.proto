@@ -1,0 +1,272 @@
+
+Ñcom.ibm.security.appscan.altoromutual.api.AccountAPI#getAccounts(Ljavax/servlet/http/HttpServletRequest;)Ljavax/ws/rs/core/Response;É
+yD:/Documents/Polytechnique/session8/LOG8371/TP3/AltoroJ-TP3/src/com/ibm/security/appscan/altoromutual/api/AccountAPI.java ("startingBlock*Ó
+2, ,(q
+o
+, ,(
+%19java.lang.String"__concat**
+, ,(
+
+responsejava.lang.String*
+, ,(
+\n]}g
+e
+, ,(
+responsejava.lang.String"__id*5
+
+__unknown_file (
+
+%19java.lang.String*
+1*±
+14# #(G∞
+≠
+# #(G@
+account5com.ibm.security.appscan.altoromutual.model.Account[]"__id*Y
+
+__unknown_file (=
+;
+%15com.ibm.security.appscan.altoromutual.model.Account[]e
+c
+% %(#
+responsejava.lang.String"__id*3
+
+__unknown_file (
+{\"Accounts\":\n[\n*
+2
+12*ä
+startingBlock (A°
+û
+ (
+%27"
+__annotate*/
+
+__unknown_file (
+javax.ws.rs.GET*N
+
+__unknown_file (2
+0
+request%javax.servlet.http.HttpServletRequest™
+ß
+ (%
+%28"
+__annotate*8
+
+__unknown_file (
+javax.ws.rs.core.Context*N
+
+__unknown_file (2
+0
+request%javax.servlet.http.HttpServletRequestó
+î
+9 (@0
+request%javax.servlet.http.HttpServletRequest"__annotation*#
+
+__unknown_file (
+
+%27*#
+
+__unknown_file (
+
+%28*
+17*º
+15# #(F•¢
+# #(F;
+%15com.ibm.security.appscan.altoromutual.model.Account[]"tcom.ibm.security.appscan.altoromutual.model.User#getAccounts()[Lcom/ibm/security/appscan/altoromutual/model/Account;*T
+
+__unknown_file (8
+6
+%00com.ibm.security.appscan.altoromutual.model.User2getAccounts()*
+14*¶
+16# #(&è
+å
+# #(76
+%00com.ibm.security.appscan.altoromutual.model.User"úcom.ibm.security.appscan.altoromutual.util.OperationsUtil#getUser(Ljavax/servlet/http/HttpServletRequest;)Lcom/ibm/security/appscan/altoromutual/model/User;*Y
+
+__unknown_file (=";
+9com.ibm.security.appscan.altoromutual.util.OperationsUtil*N
+
+__unknown_file (2
+0
+request%javax.servlet.http.HttpServletRequest*
+15*j
+17 (T
+R
+ (
+responsejava.lang.String"__id*"
+
+__unknown_file (
+""*
+16*Ò
+9* *(p
+n
+* *( 
+%11java.lang.String"__concat**
+* *(
+
+responsejava.lang.String*
+* *( 
+,\ng
+e
+* *( 
+responsejava.lang.String"__id*5
+
+__unknown_file (
+
+%11java.lang.String*
+2
+12*ﬂ
+10' ((4n
+l
+' ((4
+%9java.lang.String"__concat*$
+' ((
+
+%6java.lang.String*
+( ((4
+
+
+%8longj
+h
+' ((<
+%10java.lang.String"__concat*$
+' ((4
+
+%9java.lang.String*
+(7 ((<
+\"}g
+e
+' ((<
+responsejava.lang.String"__id*5
+
+__unknown_file (
+
+%10java.lang.String*
+
+2
+9
+12*´
+11' '(Iz
+x
+' '(I
+%5java.lang.String"__concat*$
+' '(+
+
+%2java.lang.String*$
+'. '(I
+
+%4java.lang.Stringt
+r
+' ((
+%6java.lang.String"__concat*$
+' '(I
+
+%5java.lang.String*
+( ((
+\", \"id\": \"ÿ
+’
+( ((%9
+%73com.ibm.security.appscan.altoromutual.model.Account"
+__arrayGet*^
+
+__unknown_file (B
+@
+account5com.ibm.security.appscan.altoromutual.model.Account[]*"
+
+__unknown_file (
+""«ƒ
+( ((4
+
+%8long"Ccom.ibm.security.appscan.altoromutual.model.Account#getAccountId()J*W
+
+__unknown_file (;
+9
+%73com.ibm.security.appscan.altoromutual.model.Account2getAccountId()*
+10*◊
+12' '({
+y
+' '(+
+%2java.lang.String"__concat**
+' '(
+
+responsejava.lang.String*
+' '(+
+{ \"Name\" : \"ÿ
+’
+'. '(89
+%33com.ibm.security.appscan.altoromutual.model.Account"
+__arrayGet*^
+
+__unknown_file (B
+@
+account5com.ibm.security.appscan.altoromutual.model.Account[]*"
+
+__unknown_file (
+""ËÂ
+'. '(I
+%4java.lang.String"Vcom.ibm.security.appscan.altoromutual.model.Account#getAccountName()Ljava/lang/String;*W
+
+__unknown_file (;
+9
+%33com.ibm.security.appscan.altoromutual.model.Account2getAccountName()*
+11*≥
+12	 2(_
+]
+2 2(('
+%20 javax.ws.rs.core.Response$Status"__id*"
+
+__unknown_file (
+""_
+]
+2 2(+'
+%21 javax.ws.rs.core.Response$Status"__id*"
+
+__unknown_file (
+""≤
+Ø
+2	 2(,0
+%22)javax.ws.rs.core.Response$ResponseBuilder"ojavax.ws.rs.core.Response#status(Ljavax/ws/rs/core/Response$Status;)Ljavax/ws/rs/core/Response$ResponseBuilder;*9
+
+__unknown_file ("
+javax.ws.rs.core.Response*E
+
+__unknown_file ()
+'
+%21 javax.ws.rs.core.Response$Statusÿ’
+2	 2(=0
+%23)javax.ws.rs.core.Response$ResponseBuilder"ojavax.ws.rs.core.Response$ResponseBuilder#entity(Ljava/lang/Object;)Ljavax/ws/rs/core/Response$ResponseBuilder;*N
+
+__unknown_file (2
+0
+%22)javax.ws.rs.core.Response$ResponseBuilder*:
+
+__unknown_file (
+
+responsejava.lang.String2entity(Ljava/lang/Object;)Y
+W
+2C 2(b!
+%24javax.ws.rs.core.MediaType"__id*"
+
+__unknown_file (
+""ÌÍ
+2	 2(c0
+%25)javax.ws.rs.core.Response$ResponseBuilder"wjavax.ws.rs.core.Response$ResponseBuilder#type(Ljavax/ws/rs/core/MediaType;)Ljavax/ws/rs/core/Response$ResponseBuilder;*N
+
+__unknown_file (2
+0
+%23)javax.ws.rs.core.Response$ResponseBuilder*?
+
+__unknown_file (#
+!
+%24javax.ws.rs.core.MediaType2"type(Ljavax/ws/rs/core/MediaType;)÷”
+2	 2(k 
+%26javax.ws.rs.core.Response"Ljavax.ws.rs.core.Response$ResponseBuilder#build()Ljavax/ws/rs/core/Response;*N
+
+__unknown_file (2
+0
+%25)javax.ws.rs.core.Response$ResponseBuilder2build()".
+2 2(l"
+ 
+%26javax.ws.rs.core.Response:<
+ (@0
+request%javax.servlet.http.HttpServletRequestB86
+4com.ibm.security.appscan.altoromutual.api.AccountAPIH

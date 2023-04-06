@@ -1,0 +1,4 @@
+com.ibm.security.appscan.altoromutual.api.LoginAPI#checkLogin(Ljavax/servlet/http/HttpServletRequest;)Ljavax/ws/rs/core/Response;
+org.apache.wink.json4j.JSONObject#<init>()V
+org.apache.wink.json4j.JSONObject#instance-init#
+javax.ws.rs.core.Response#status(Ljavax/ws/rs/core/Response$Status;)Ljavax/ws/rs/core/Response$ResponseBuilder;

@@ -1,0 +1,20 @@
+
+vcom.ibm.security.appscan.altoromutual.model.Account#getAccount(J)Lcom/ibm/security/appscan/altoromutual/model/Account;‚
+xD:/Documents/Polytechnique/session8/LOG8371/TP3/AltoroJ-TP3/src/com/ibm/security/appscan/altoromutual/model/Account.java. .(!"1*Ž
+1/	 /(µ
+²
+/	 /(#9
+%03com.ibm.security.appscan.altoromutual.model.Account"tcom.ibm.security.appscan.altoromutual.util.DBUtil#getAccount(J)Lcom/ibm/security/appscan/altoromutual/model/Account;*Q
+
+__unknown_file (5"3
+1com.ibm.security.appscan.altoromutual.util.DBUtil*"
+
+__unknown_file (
+"""G
+/ /($;
+9
+%03com.ibm.security.appscan.altoromutual.model.Account: 
+
+__unknown_file (
+""B7"5
+3com.ibm.security.appscan.altoromutual.model.AccountH

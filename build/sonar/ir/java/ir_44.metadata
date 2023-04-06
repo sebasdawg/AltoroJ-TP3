@@ -1,0 +1,3 @@
+com.ibm.security.appscan.altoromutual.util.ServletUtil#sanitzieHtmlWithRegex(Ljava/lang/String;)Ljava/lang/String;
+java.util.regex.Pattern#matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+java.util.regex.Matcher#matches()Z

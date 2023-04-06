@@ -1,0 +1,2 @@
+com.ibm.security.appscan.altoromutual.util.ServletUtil#getBankUsers()[Ljava/lang/String;
+com.ibm.security.appscan.altoromutual.util.DBUtil#getBankUsernames()[Ljava/lang/String;
